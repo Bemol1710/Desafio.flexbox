@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.page-container{
+    display: flex;
+    width: 100%;
+}
+
+.contacts{
+    background-color: #1c7af5;
+    flex-basis: 20%;
+    height: 100vh;
+    min-width: 350px;
+    overflow-y: auto;
+    color: #fff;
+}
+
+.contacts .user{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-color: #1c7af5;
+    box-shadow: 0 5px 15px rgba(104, 144, 238, 0.25);
+}
+
+.my-profile{
+    border-bottom: 2px solid rgba(0,0,0,.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 35px;
+    
+}
+
+.my-profile .my-info{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.my-profile .my-info img{
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+}
+
+.my-profile .my-info .maria-info-content h5{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 3px;
+    opacity: .8;
+}
+.my-profile .my-info .maria-info-content p{
+    font-size: 16px;
+    color: rgb(3, 255, 74);
+    margin-bottom: 3px;
+    opacity: .5;
+}
+
+.my-profile .icons{
+    display: flex;
+    gap: 23px; 
+    
+}
+
+.my-profile .icons i{
+    font-size: 20px;
+    color: #fff;
+    justify-content: space-ar;
+    padding-left: 5px;
+}
+
+.new-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    padding: 11px 35px;
+}
+
+.new-message .btn-new-message{
+    width: 100%;
+    background-color: rgb(132, 135, 141);
+    font-weight: 1000;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 15px 35px;
+    border-radius: 6px;
+    
+}
+.contact-list ul{
+    width: 100%;
+}
+
+.contact-list ul li{
+    display: flex;
+    border-top: 2px solid rgba(0,0,0,.1);
+    padding: 11px 35px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.contact-list ul li img{
+    border-radius: 250px;
+    width: 50px;
+    height: 50px;
+}
+
+.contact-list ul li .contact-info{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.contact-list .contact-info h5{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.contact-list .contact-info p{
+    font-size: 14px;
+    color: #fff;
+    opacity: .5;
+}
+
+.chat{
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat .instructions{
+    background-color: rgba(255, 255, 255, 0.025);
+    border-radius: 16px;
+    width: 50%;
+    min-width: 350px;  
+    text-align: center;
+    padding: 35px;
+}
+
+.chat .instructions h1{
+    font-size: 33px;
+    margin-bottom: 12px;
+    color: rgb(0, 0, 0);
+}
+
+.chat .instructions p{
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+.chat .instructions-icon img{
+    width: 60%;
+    margin-bottom: 24px;
+    opacity: .6;
+}
